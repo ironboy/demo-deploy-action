@@ -1,0 +1,23 @@
+{
+  "name": "demo-deploy-action",
+  "version": "1.0.0",
+  "description": "Demo of deploy action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"All tests fine\" && exit 0n"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironboy/demo-deploy-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ironboy/demo-deploy-action/issues"
+  },
+  "homepage": "https://github.com/ironboy/demo-deploy-action#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
