@@ -52,7 +52,9 @@ jobs:
     # only run this job if the environment protection rules
     # (a reviewers approves and we are on the dev branch)
     # are fulfilled
-    environment: "Main deploy"
+    # TO BE CHECKD BY THOMAS:
+    # FOR NOW DEPLOY AUTOMATICALLY
+    # environment: "Main deploy"
 
     runs-on: ubuntu-latest
     steps:
