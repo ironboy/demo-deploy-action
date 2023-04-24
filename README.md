@@ -1,2 +1,2 @@
-# demo-deploy-action
-Demo of deploy action
+# lumia-cypress-tester
+ Demo of Github actions with cypress + cucumber
