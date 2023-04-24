@@ -70,6 +70,8 @@ jobs:
         # below just an example
         # can be more (like restarting pm2)
         script: |
-          cd /var/www/nodehill-home-page
+          cd /var/www/demo-deploy-action
           git pull
+          npm install
           npm run build --if-present
+          pm2 restart lumia
