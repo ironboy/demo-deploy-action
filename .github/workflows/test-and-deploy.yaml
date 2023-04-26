@@ -54,7 +54,7 @@ jobs:
     # are fulfilled
     # TO BE CHECKED BY THOMAS:
     # FOR NOW DEPLOY AUTOMATICALLY
-    # environment: Main deploy
+    environment: Main deploy
 
     runs-on: ubuntu-latest
     steps:
