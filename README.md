@@ -1,2 +1,2 @@
 # lumia-cypress-tester
- Demo of Github actions with cypress + cucumber
+ Demo of Github actions with cypress + cucumber. Working.
