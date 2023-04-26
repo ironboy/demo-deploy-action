@@ -49,13 +49,6 @@ jobs:
     # before running deploy
     needs: [tests]
 
-    # only run this job if the environment protection rules
-    # (a reviewers approves and we are on the dev branch)
-    # are fulfilled
-    # TO BE CHECKED BY THOMAS:
-    # FOR NOW DEPLOY AUTOMATICALLY
-    # environment: Main deploy
-
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
